@@ -1,0 +1,6 @@
+{
+  "name": "Celestial Cuisine - Luxury Fine Dining",
+  "description": "Celestial Cuisine: An elevated culinary journey. Michelin-inspired fine dining, seasonal gastronomy, private dining salon, and reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

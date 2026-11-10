@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Celestial Cuisine | Luxury Fine Dining Restaurant</title>
+  <meta name="description" content="Celestial Cuisine: An elevated culinary journey. Experience modern fine dining, Michelin-inspired seasonal gastronomy, and private dining in the USA." />
+  <meta property="og:title" content="Celestial Cuisine | Luxury Fine Dining Restaurant" />
+  <meta property="og:description" content="An elevated culinary journey. Experience modern fine dining, Michelin-inspired seasonal gastronomy, and luxury atmosphere." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="./assets/logo/logo-mark.svg" />
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Left: Logo -->
+      <a href="./index.html" class="brand-link" aria-label="Celestial Cuisine Home">
+        <span class="brand-emblem-wrap" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="23" stroke="#C5A15A" stroke-width="1" stroke-opacity="0.4"/>
+            <path d="M24 6 C33.94 6 42 14.06 42 24 C42 33.94 33.94 42 24 42 C20.3 42 16.88 40.89 14 38.98 C18.5 37.1 21.6 32.7 21.6 27.5 C21.6 20.3 15.7 14.4 8.5 14.4 C7.2 14.4 6 14.6 4.9 15 C8.1 9.5 15.6 6 24 6 Z" fill="#C5A15A"/>
+            <path d="M24 16 L25.5 22.5 L32 24 L25.5 25.5 L24 32 L22.5 25.5 L16 24 L22.5 22.5 Z" fill="#F5F0E5"/>
+          </svg>
+        </span>
+        <span class="brand-typography">
+          <span class="brand-name">CELESTIAL <span class="text-gold">CUISINE</span></span>
+          <span class="brand-subtitle">FINE DINING &bull; EST. 2018</span>
+        </span>
+      </a>
+
+      <!-- Center: Navigation Links -->
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <a href="./index.html" class="nav-link active">Home</a>
+        <a href="./menu.html" class="nav-link">The Menu</a>
+        <a href="./experience.html" class="nav-link">Experience</a>
+        <a href="./private-dining.html" class="nav-link">Private Dining</a>
+        <a href="./gallery.html" class="nav-link">Gallery</a>
+        <a href="./story.html" class="nav-link">Our Story</a>
+      </nav>
+
+      <!-- Right: Action CTA & Mobile Toggle -->
+      <div class="header-actions">
+        <a href="./reservations.html" class="btn btn-gold btn-sm btn-reserve-desktop">
+          Book a Table
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-list">
+      <li><a href="./index.html" class="mobile-nav-link active">Home</a></li>
+      <li><a href="./menu.html" class="mobile-nav-link">The Menu</a></li>
+      <li><a href="./experience.html" class="mobile-nav-link">Dining Experience</a></li>
+      <li><a href="./private-dining.html" class="mobile-nav-link">Private Dining</a></li>
+      <li><a href="./gallery.html" class="mobile-nav-link">Gallery</a></li>
+      <li><a href="./story.html" class="mobile-nav-link">Our Story</a></li>
+      <li><a href="./contact.html" class="mobile-nav-link">Contact Us</a></li>
+    </ul>
+    <div style="margin-top: 2rem;">
+      <a href="./reservations.html" class="btn btn-gold" style="width: 100%;">Reserve a Table</a>
+      <p style="margin-top: 1.25rem; font-size: 0.8rem; color: var(--text-muted); text-align: center;">
+        680 Fifth Avenue, New York, NY<br />Concierge: (212) 555-0198
+      </p>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main id="mainContent">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" aria-label="Hero Introduction">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Haute Gastronomy &bull; Modern Classic</span>
+          <h1 class="hero-headline">AN ELEVATED CULINARY JOURNEY</h1>
+          <p class="hero-subheading">
+            Experience Modern Fine Dining Like Never Before. Crafted with rare seasonal ingredients, Michelin-level technique, and reverent hospitality.
+          </p>
+          <div class="hero-actions">
+            <a href="./menu.html" class="btn btn-gold">View Menu</a>
+            <a href="./reservations.html" class="btn btn-outline">Reserve Your Seat</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img 
+              src="./assets/images/hero-wagyu-steak.jpg" 
+              alt="Miyazaki A5 Wagyu Ribeye seared over binchotan charcoal with herb butter and Maldon salt" 
+              width="600" 
+              height="480"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="hero-badge-floating">
+            <div class="star-cluster" aria-hidden="true">&#9733;&#9733;&#9733;</div>
+            <div>
+              <p>MICHELIN GUIDE SELECTED</p>
+              <span style="font-size: 0.7rem; color: var(--text-muted);">2024 &bull; 2025 Honors</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KPI / CREDENTIALS STRIP -->
+    <section class="kpi-strip" aria-label="Key Accolades">
+      <div class="container">
+        <div class="kpi-grid">
+          <div class="kpi-item">
+            <h4>A5</h4>
+            <p>Certified Miyazaki Wagyu</p>
+          </div>
+          <div class="kpi-item">
+            <h4>1,400+</h4>
+            <p>Grand Cru Cellar Labels</p>
+          </div>
+          <div class="kpi-item">
+            <h4>100%</h4>
+            <p>Single-Origin Ingredients</p>
+          </div>
+          <div class="kpi-item">
+            <h4>12</h4>
+            <p>Private Salon Seats</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION A: WELCOME SECTION -->
+    <section class="section-padding" aria-label="Welcome to Celestial Cuisine">
+      <div class="container">
+        <div class="editorial-split">
+          <div class="editorial-image-frame">
+            <img 
+              src="./assets/images/interior-ambience.jpg" 
+              alt="Warm candlelit dining salon with dark oak finishes and amber glassware" 
+              loading="lazy" 
+              width="580" 
+              height="440" 
+            />
+          </div>
+          <div>
+            <span class="eyebrow">The Sanctuary</span>
+            <h2>Where Intimacy Meets Culinary Artistry</h2>
+            <div class="divider-gold"></div>
+            <p class="lead-text" style="margin-bottom: 1.25rem;">
+              Conceived in the vibrant culinary heart of New York, Celestial Cuisine redefines the modern fine dining narrative. We orchestrate dining as a sensory symphony—where quiet luxury, architectural warmth, and visionary gastronomy unite.
+            </p>
+            <p style="margin-bottom: 2rem;">
+              Every plate reflects meticulous respect for farmers, fishermen, and foragers who supply our daily larder. Guided by classic French foundations and avant-garde global nuance, our kitchen presents food that is daring, poetic, and unforgettable.
+            </p>
+            <a href="./experience.html" class="btn btn-outline-gold">Explore The Experience</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION B: OUR STORY PREVIEW -->
+    <section class="section-padding bg-secondary" aria-label="Our Story Preview">
+      <div class="container">
+        <div class="editorial-split reversed">
+          <div class="editorial-image-frame">
+            <img 
+              src="./assets/images/chef-plating.jpg" 
+              alt="Executive Chef Antoine delicate finishing of signature course" 
+              loading="lazy" 
+              width="580" 
+              height="440" 
+            />
+          </div>
+          <div>
+            <span class="eyebrow">Heritage &bull; Philosophy</span>
+            <h2>A Celebration of Flavor, Artistry & Atmosphere</h2>
+            <div class="divider-gold"></div>
+            <p class="lead-text" style="margin-bottom: 1.25rem;">
+              "Gastronomy is not mere sustenance; it is an ephemeral art form designed to awaken memories, foster conversation, and inspire wonder."
+            </p>
+            <p style="margin-bottom: 2rem;">
+              Founded by Executive Chef Antoine Laurent, our brigade champions zero-waste culinary ethics, heirloom grain revivals, and hyper-seasonal forage. From our bespoke ceramic tableware to custom-aged steaks in Himalayan salt lockers, every detail is considered.
+            </p>
+            <a href="./story.html" class="btn btn-outline">Read Our Full Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION C: FEATURED DISHES -->
+    <section class="section-padding" aria-label="Featured Dishes">
+      <div class="container">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 3.5rem auto;">
+          <span class="eyebrow">Culinary Masterpieces</span>
+          <h2>Signature Gastronomy</h2>
+          <div class="divider-gold centered"></div>
+          <p>
+            Three perennial hallmarks of Celestial Cuisine, crafted to showcase the purity of flavor and technical precision of our kitchen.
+          </p>
+        </div>
+
+        <div class="card-grid-3">
+          <!-- Dish 1 -->
+          <article class="dish-card">
+            <div class="dish-card-image">
+              <img src="./assets/images/hero-wagyu-steak.jpg" alt="Miyazaki A5 Wagyu Beef" loading="lazy" />
+              <span class="dish-price-tag">$55</span>
+            </div>
+            <div class="dish-card-body">
+              <span class="eyebrow" style="margin-bottom: 0.35rem;">Steaks &bull; Charcoal</span>
+              <h3 class="dish-card-title">Miyazaki A5 Wagyu Beef</h3>
+              <p class="dish-card-desc">
+                Charred over Japanese white binchotan with bone marrow glaze, black garlic emulsion, and smoked sea salt.
+              </p>
+              <div class="dish-card-footer">
+                <span class="dietary-tag">Signature &bull; GF</span>
+                <a href="./menu.html" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 2 -->
+          <article class="dish-card">
+            <div class="dish-card-image">
+              <img src="./assets/images/dish-scallops.jpg" alt="Pan-Seared Hokkaido Scallops" loading="lazy" />
+              <span class="dish-price-tag">$42</span>
+            </div>
+            <div class="dish-card-body">
+              <span class="eyebrow" style="margin-bottom: 0.35rem;">Seafood &bull; Raw Bar</span>
+              <h3 class="dish-card-title">Pan-Seared Scallops</h3>
+              <p class="dish-card-desc">
+                Wild diver scallops caramelized over silk cauliflower puree, Golden Kaluga Imperial Caviar, and saffron reduction.
+              </p>
+              <div class="dish-card-footer">
+                <span class="dietary-tag">Signature &bull; Ocean</span>
+                <a href="./menu.html" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 3 -->
+          <article class="dish-card">
+            <div class="dish-card-image">
+              <img src="./assets/images/dish-chocolate-fondant.jpg" alt="Valrhona Chocolate Fondant" loading="lazy" />
+              <span class="dish-price-tag">$28</span>
+            </div>
+            <div class="dish-card-body">
+              <span class="eyebrow" style="margin-bottom: 0.35rem;">Dessert &bull; Pâtisserie</span>
+              <h3 class="dish-card-title">Chocolate Fondant</h3>
+              <p class="dish-card-desc">
+                Warm 70% Guanaja dark chocolate cake with spun gold sugar nest, 24k gold leaf, Tahitian vanilla bean gelato, and raspberry coulis.
+              </p>
+              <div class="dish-card-footer">
+                <span class="dietary-tag">Signature &bull; Vegetarian</span>
+                <a href="./menu.html" class="btn btn-outline btn-sm">View Details</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="./menu.html" class="btn btn-gold btn-lg">Explore Complete Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION D: DINING EXPERIENCE & AMBIENCE -->
+    <section class="section-padding bg-secondary" aria-label="Dining Experience">
+      <div class="container">
+        <div class="editorial-split">
+          <div>
+            <span class="eyebrow">The Atmosphere</span>
+            <h2>Atmosphere of Unhurried Elegance</h2>
+            <div class="divider-gold"></div>
+            <p class="lead-text" style="margin-bottom: 1.25rem;">
+              Immerse yourself in an acoustic and visual sanctuary designed to celebrate connection.
+            </p>
+            <p style="margin-bottom: 1.75rem;">
+              Custom sound dampening, velvet seating, architectural bronze lighting, and private banquettes allow private conversations to flourish while our sommelier team pairs world-class library vintages with each bespoke course.
+            </p>
+            <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+              <div>
+                <h4 style="color: var(--gold-primary); font-size: 1.5rem; margin-bottom: 0.25rem;">7-Course</h4>
+                <p style="font-size: 0.85rem;">Grand Tasting Menu</p>
+              </div>
+              <div>
+                <h4 style="color: var(--gold-primary); font-size: 1.5rem; margin-bottom: 0.25rem;">100%</h4>
+                <p style="font-size: 0.85rem;">Riedel Sommeliers Glassware</p>
+              </div>
+            </div>
+            <a href="./experience.html" class="btn btn-outline-gold">Discover The Experience</a>
+          </div>
+
+          <div class="editorial-image-frame">
+            <img 
+              src="./assets/images/sommelier-wine.jpg" 
+              alt="Sommelier pouring vintage wine in the cellar tasting alcove" 
+              loading="lazy" 
+              width="580" 
+              height="440" 
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION E: CHEF'S SPECIAL & PRIVATE DINING SALON -->
+    <section class="section-padding" aria-label="Private Dining & Celebrations">
+      <div class="container">
+        <div class="editorial-split reversed">
+          <div class="editorial-image-frame">
+            <img 
+              src="./assets/images/private-dining-salon.jpg" 
+              alt="Private Dining Salon with candelabras and crystal stemware" 
+              loading="lazy" 
+              width="580" 
+              height="440" 
+            />
+          </div>
+          <div>
+            <span class="eyebrow">Exclusive Entertaining</span>
+            <h2>The Celestial Wine Salon</h2>
+            <div class="divider-gold"></div>
+            <p class="lead-text" style="margin-bottom: 1.25rem;">
+              An intimate private enclave accommodating up to 16 guests, framed by our temperature-controlled grand cru collection.
+            </p>
+            <p style="margin-bottom: 2rem;">
+              Whether hosting corporate summits, milestones, or bespoke wedding dinners, our private event directors coordinate customized multi-course tasting menus, printed guest menus, and dedicated sommelier service.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="./private-dining.html" class="btn btn-gold">Inquire Private Dining</a>
+              <a href="./gallery.html" class="btn btn-outline">View Gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION F: TESTIMONIALS -->
+    <section class="section-padding bg-secondary" aria-label="Customer Testimonials">
+      <div class="container">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto 3.5rem auto;">
+          <span class="eyebrow">Guest Impressions</span>
+          <h2>Praised by Connoisseurs</h2>
+          <div class="divider-gold centered"></div>
+          <p>Read reflections from patrons who have experienced our seasonal seatings.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <p class="testimonial-text">
+              The A5 Wagyu paired with the 2018 Opus One was a transcendent pairing. Celestial Cuisine sets a new benchmark for American luxury dining.
+            </p>
+            <div class="testimonial-author">
+              <h5 class="author-name">Harrison Vance</h5>
+              <p class="author-role">Culinary Contributor, Manhattan Gastronomy</p>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <p class="testimonial-text">
+              We hosted our 20th anniversary in the Wine Salon. The hospitality was discreet yet omniscient; the scallop dish with caviar will stay in our memories forever.
+            </p>
+            <div class="testimonial-author">
+              <h5 class="author-name">Genevieve &amp; Arthur Sterling</h5>
+              <p class="author-role">Private Patrons, Boston MA</p>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <p class="testimonial-text">
+              Chef Antoine’s truffle tagliolini and chocolate fondant showcase rare restraint. Refined, candlelit, and genuinely hospitable from entry to digestif.
+            </p>
+            <div class="testimonial-author">
+              <h5 class="author-name">Dr. Evelyn Thorne</h5>
+              <p class="author-role">Sommelier &amp; Art Historian, San Francisco</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="demo-disclaimer">
+          * Demo Content: All guest reviews above are illustrative demonstrations representing typical patron accolades.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION G: RESERVATION CTA -->
+    <section class="section-padding" style="background: radial-gradient(circle at center, #262B28 0%, #171A19 100%); text-align: center;" aria-label="Call to Action">
+      <div class="container container-narrow">
+        <span class="eyebrow">Table Bookings</span>
+        <h2 style="margin-bottom: 1rem;">Reserve Your Table</h2>
+        <div class="divider-gold centered"></div>
+        <p class="lead-text" style="margin-bottom: 2.5rem;">
+          Our dining room accommodates lunch and dinner seatings Wednesday through Sunday. Reservations open 30 days in advance.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1.25rem; flex-wrap: wrap;">
+          <a href="./reservations.html" class="btn btn-gold btn-lg">Book a Reservation</a>
+          <a href="./contact.html" class="btn btn-outline btn-lg">Contact Concierge</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-brand">
+          <a href="./index.html" class="brand-link" aria-label="Celestial Cuisine Home" style="margin-bottom: 1.25rem;">
+            <span class="brand-emblem-wrap" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle cx="24" cy="24" r="23" stroke="#C5A15A" stroke-width="1" stroke-opacity="0.4"/>
+                <path d="M24 6 C33.94 6 42 14.06 42 24 C42 33.94 33.94 42 24 42 C20.3 42 16.88 40.89 14 38.98 C18.5 37.1 21.6 32.7 21.6 27.5 C21.6 20.3 15.7 14.4 8.5 14.4 C7.2 14.4 6 14.6 4.9 15 C8.1 9.5 15.6 6 24 6 Z" fill="#C5A15A"/>
+                <path d="M24 16 L25.5 22.5 L32 24 L25.5 25.5 L24 32 L22.5 25.5 L16 24 L22.5 22.5 Z" fill="#F5F0E5"/>
+              </svg>
+            </span>
+            <span class="brand-typography">
+              <span class="brand-name">CELESTIAL <span class="text-gold">CUISINE</span></span>
+              <span class="brand-subtitle">FINE DINING &bull; EST. 2018</span>
+            </span>
+          </a>
+          <p class="footer-desc">
+            An elevated culinary journey delivering Michelin-standard modern fine dining, rare terroir vintages, and reverent hospitality in the United States.
+          </p>
+          <div class="social-links" aria-label="Social Media Connections">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="X Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l11.7 16h4.3L8.3 4z"></path><path d="M4 20l6.5-6.5M13.5 10.5L20 4"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul class="footer-nav-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">The Menu</a></li>
+            <li><a href="./experience.html">Dining Experience</a></li>
+            <li><a href="./private-dining.html">Private Dining</a></li>
+            <li><a href="./gallery.html">Visual Gallery</a></li>
+            <li><a href="./story.html">Our Story</a></li>
+            <li><a href="./reservations.html">Book a Table</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Hours & Location -->
+        <div class="footer-col">
+          <h5>Opening Hours</h5>
+          <div class="footer-hours-list">
+            <p><strong>Lunch Service</strong><br />Wed &ndash; Sun: 11:00 AM &ndash; 3:00 PM</p>
+            <p style="margin-top: 0.75rem;"><strong>Dinner Service</strong><br />Wed &ndash; Sun: 5:00 PM &ndash; 10:00 PM</p>
+            <p style="margin-top: 0.75rem; color: var(--gold-primary);">Monday &amp; Tuesday: Closed for Private Farm Sourcing</p>
+            <p style="margin-top: 1rem; font-size: 0.82rem; color: var(--text-muted);">
+              Demo Address:<br />680 Fifth Avenue, Floor 14<br />New York, NY 10019
+            </p>
+          </div>
+        </div>
+
+        <!-- Col 4: Newsletter -->
+        <div class="footer-col">
+          <h5>Private Salon Gazette</h5>
+          <p style="font-size: 0.88rem; margin-bottom: 1.25rem;">
+            Subscribe to receive priority seasonal menu releases, winemaker dinners, and private salon announcements.
+          </p>
+          <form class="newsletter-form" aria-label="Newsletter Subscription">
+            <div class="newsletter-input-group">
+              <input type="email" class="newsletter-input" placeholder="Your email address" required aria-label="Email Address" />
+              <button type="submit" class="newsletter-submit">Join</button>
+            </div>
+            <span style="font-size: 0.72rem; color: var(--text-muted);">Strict privacy honored. Unsubscribe anytime.</span>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Celestial Cuisine Restaurant Group LLC. All Rights Reserved. Crafted for GitHub Pages.</p>
+        <div class="footer-bottom-links">
+          <a href="./contact.html">Privacy Policy</a>
+          <span aria-hidden="true">&bull;</span>
+          <a href="./contact.html">Terms of Service</a>
+          <span aria-hidden="true">&bull;</span>
+          <a href="./reservations.html">Reservations Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Scripts -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
